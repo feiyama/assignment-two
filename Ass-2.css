@@ -1,0 +1,86 @@
+
+body {
+    background-color:aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+header{
+    background:#3541;
+    color: azure;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+
+
+h1{
+    font-family:monospace;
+    font-size:550%;
+    text-align: left;
+    color:chocolate;
+        
+}
+
+h2 {
+    font-family: serif;
+    font-size: 200%;
+    text-align: left;
+    color:brown;
+}
+
+nav{
+    border-bottom: 2px solid yellow;
+}
+nav ul,li{
+    display: inline;
+    padding-left: 15px;
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.forecast {
+    margin: 0;
+    padding: .1.5rem;
+    background-color:burlywood;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.forecast > h5,
+.day-forecast {
+    margin: .1rem;
+    padding: .3rem;
+    font-size: 0.8rem;
+}
+
+
+
+.day-forecast > p {
+    margin: .1rem;
+    font-size: 1rem;
+}
+
+
+
+aside {
+    width: 40%;
+    padding-left: .3rem;
+    margin-left: .3rem;
+    float: right;
+    box-shadow: inset 6px 0 5px -5px #446FBD;
+    font-style: italic;
+    color: #535353;
+}
+
+aside > p {
+    margin: .2rem;
+}
+
+
